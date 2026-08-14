@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21454aa2c2c34864bc672f1870281bb7, type: 3}
+  m_Name: PrizeConfig
+  m_EditorClassIdentifier: Tools.PrizeManager::Tools.PrizeManager.Models.PrizeConfig
+  prizes:
+  - id: prize_001
+    prizeName: labubu
+    totalQuantity: 20
+    awardedQuantity: 0
+    prizeIcon: {fileID: -8647559963070412746, guid: 914717c012f4b894898fc91335fb32a2, type: 3}
+    description: 
+  - id: prize_002
+    prizeName: garrafa
+    totalQuantity: 50
+    awardedQuantity: 0
+    prizeIcon: {fileID: -8096670900358420355, guid: af7d1409fd3b58944a698adce2413d6d, type: 3}
+    description: 
+  - id: prize_003
+    prizeName: sacola
+    totalQuantity: 30
+    awardedQuantity: 0
+    prizeIcon: {fileID: 3240130137451975133, guid: 65fa7c3232373674f89a1a36c0b58f9b, type: 3}
+    description: 
+  - id: prize_004
+    prizeName: ventosa
+    totalQuantity: 20
+    awardedQuantity: 0
+    prizeIcon: {fileID: 846243299134801632, guid: 57105d9d2db48f24d82a561de5b0e1bd, type: 3}
+    description: 
+  - id: prize_005
+    prizeName: caneta
+    totalQuantity: 100
+    awardedQuantity: 0
+    prizeIcon: {fileID: -3460837098915822399, guid: 01deb9bf27a3be04fa555e77f570fe92, type: 3}
+    description: 
+  persistLocally: 1
+  saveKey: PrizeManager
+  allowMultipleAwardsPerPrize: 1
+  autoSaveOnAward: 1
